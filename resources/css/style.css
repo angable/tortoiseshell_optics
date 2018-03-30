@@ -1,0 +1,63 @@
+/* Overall Site Stylings */
+
+html {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Helvetica;
+}
+
+.site-container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 1.5rem;
+    padding-right: 18px;
+}
+
+
+/* Heading Stylings */
+
+header {
+    background-image: url(../images/glasses-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 30rem;
+}
+
+header,
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+nav {
+    background-color: cadetblue;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .menu {
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.mobile-menu {
+    display: none;
+}
